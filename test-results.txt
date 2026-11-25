@@ -1,0 +1,7 @@
+Test accuracy: 0.9000 (30 samples)
+GET /: 200 {"message":"ML API is running"}
+POST /predict: 200 {'prediction': 'Iris Setosa', 'class_id': 0}
+POST /predict: 200 {'prediction': 'Iris Versicolor', 'class_id': 1}
+POST /predict: 200 {'prediction': 'Iris Virginica', 'class_id': 2}
+GET /docs: 200
+GET /openapi.json: 200
